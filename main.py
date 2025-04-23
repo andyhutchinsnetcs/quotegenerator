@@ -23,7 +23,7 @@ def createQuote(site_num, msgbox=True):
         "Mobile Scaffolding" : 10,
         "Cherry Picker" : 11
     }
-    filename = "NetCS - " + str(site_num) + " - " + site_name[i] + " - CS.xlsx"
+    filename = "NET - VMO2  - " + str(site_num) + " - " + site_name[i] + " - CS_V1.xlsx"
     wb = load_workbook("bins/VMO2 CS TEMPLATE.xlsx")
     ws = wb["Summary"]
     ws.cell(4, 2).value = site_num
